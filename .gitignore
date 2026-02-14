@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Data
+data/raw/
+data/processed/*.jpg
+data/processed/*.png
+*.jpg
+*.png
+!results/**/*.jpg
+!results/**/*.png
+
+# Models
+models/checkpoints/*.pth
+*.pth
+*.h5
+*.onnx
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+wandb/
+
+# Large files
+*.zip
+*.tar.gz
+*.mp4
